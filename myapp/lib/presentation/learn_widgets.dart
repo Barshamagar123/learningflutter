@@ -99,7 +99,8 @@ image:DecorationImage(
               // BlendMode.color,
               BlendMode.overlay,
     )
-  )
+  ),
+  shape:BoxShape.rectangle,
     )
   )
   )

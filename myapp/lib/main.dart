@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/presentation/learn_widgets.dart';
+import 'package:myapp/presentation/learn_column.dart';
+// import 'package:myapp/presentation/learn_widgets.dart';
 
 void main(){
   runApp(const MyApp());
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
   return MaterialApp(
-  home:LearnWidgets(),
+  // home:LearnWidgets(),
+  home:LearnColumn(),
   debugShowCheckedModeBanner: false,
   );
   }
