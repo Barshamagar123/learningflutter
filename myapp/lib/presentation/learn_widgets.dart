@@ -29,7 +29,51 @@ class LearnWidgets extends StatelessWidget{
         top:Radius.circular(30),
         bottom:Radius.circular(40)
       ),
-    
+      boxShadow: [
+        BoxShadow(
+          color:Colors.red,
+          blurRadius: 10,
+          offset:Offset(5, 5)
+        )
+      ],
+      // gradient: LinearGradient(
+      //   colors: [
+      //     Colors.blue,
+      //     Colors.green,
+      //   ])
+// gradient:RadialGradient(
+//   colors: [
+//     Colors.red,
+//     Colors.yellow,
+//     Colors.blue,
+//   ]
+// )
+// gradient:SweepGradient(colors: [
+//   Colors.red,
+//   Colors.black,
+//   Colors.green,
+//   Colors.amber,
+//   Colors.blue,
+//   Colors.white10,
+//   Colors.purple,
+//   Colors.pink,
+// ])
+// gradient:LinearGradient(
+//   begin:Alignment.topLeft,
+//   end:Alignment.bottomRight,
+//   colors: 
+// [
+  
+//   Colors.red,
+//   Colors.blue,
+// ])
+gradient:LinearGradient(colors: [
+  Colors.amber,
+  Colors.green,
+  Colors.purple,
+],
+stops:[0.0,0.3,1.0],
+)
     )
   )
   )
