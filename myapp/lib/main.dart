@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/presentation/learn_widgets.dart';
 
-void main() {
+void main(){
   runApp(const MyApp());
 }
 class MyApp extends StatelessWidget{
@@ -9,9 +9,10 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-   return MaterialApp(home:LearnWidgets() ,
-   debugShowCheckedModeBanner: false,
-   title:'My flutter App');
+  return MaterialApp(
+  home:LearnWidgets(),
+  debugShowCheckedModeBanner: false,
+  );
   }
-
+  
 }
