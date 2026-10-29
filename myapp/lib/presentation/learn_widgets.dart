@@ -67,13 +67,39 @@ class LearnWidgets extends StatelessWidget{
 //   Colors.red,
 //   Colors.blue,
 // ])
-gradient:LinearGradient(colors: [
-  Colors.amber,
-  Colors.green,
-  Colors.purple,
-],
-stops:[0.0,0.3,1.0],
-)
+// gradient:LinearGradient(colors: [
+//   Colors.amber,
+//   Colors.green,
+//   Colors.purple,
+// ],
+// stops:[0.0,0.3,1.0],
+// ),
+image:DecorationImage(
+  // image: AssetImage('assets/wow.jpeg'),
+  image: NetworkImage(
+  'https://thumbs.dreamstime.com/b/beautiful-nature-landscape-path-along-fresh-green-trees-track-edge-forest-lush-spring-day-120816288.jpg',
+),
+  // fit:BoxFit.cover,
+  // fit:BoxFit.fill,
+    // fit:BoxFit.contains,
+    // fit:BoxFit.fitWidth,
+    // fit:BoxFit.fitHeight,
+    // fit:BoxFit.none,
+    fit:BoxFit.scaleDown,
+    opacity:0.5,
+    alignment:Alignment.bottomLeft,
+    colorFilter:ColorFilter.mode(
+      Colors.black38,
+      // BlendMode.lighten,
+        // BlendMode.darken,
+          // BlendMode.lighten,
+            // BlendMode.srcOver,
+            // BlendMode.multiply,
+              // BlendMode.screen,
+              // BlendMode.color,
+              BlendMode.overlay,
+    )
+  )
     )
   )
   )
