@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
   return MaterialApp(
   // home:LearnWidgets(),
-  home:LearnWidgets(),
+  home:LearnColumn(),
   debugShowCheckedModeBanner: false,
   );
   }
