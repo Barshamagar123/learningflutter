@@ -13,7 +13,10 @@ appBar: AppBar(
     Icon(Icons.search),
     SizedBox(width:20),
     Icon(Icons.notifications),
-  ]
+  ],
+  backgroundColor: Colors.amber,
+  centerTitle:true,
+  elevation:30,
 )
 );
   }
