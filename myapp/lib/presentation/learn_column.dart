@@ -7,11 +7,26 @@ class LearnColumn extends StatelessWidget{
   Widget build(BuildContext context) {
   return Scaffold(
     body: Center(
-       child:  Column(children: [
-      Text('hi'),
-      Text('hello'),
-      SizedBox(height:56.0),
-      Text('heehhehe')
+     child:  Column(
+      children: [
+        // Padding(padding: EdgeInsets.all(16),  
+        // child:Text('hello'), ),
+      // Text('hi'),
+    // Padding(
+    //   padding: EdgeInsets.only(
+    //     bottom:30,
+    //   ),
+    //   child:Text('hellow everybody')
+    // )
+    Padding(
+      padding: EdgeInsets.symmetric(
+        horizontal:50,
+        vertical:50,
+      ),
+      child:Text('hellp everyone')
+    )
+      // SizedBox(height:56.0),
+      // Text('heehhehe')
     ],)
     )
  
