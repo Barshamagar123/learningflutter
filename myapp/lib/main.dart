@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/presentation/learn_align.dart';
 // import 'package:myapp/presentation/learn_appbar.dart';
-import 'package:myapp/presentation/learn_button.dart';
+// import 'package:myapp/presentation/learn_button.dart';
 // import 'package:myapp/presentation/learn_column.dart';
 // import 'package:myapp/presentation/learn_widgets.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
   return MaterialApp(
   // home:LearnWidgets(),
-  home:LearnButton(),
+  home:LearnAlign(),
   debugShowCheckedModeBanner: false,
   );
   }
